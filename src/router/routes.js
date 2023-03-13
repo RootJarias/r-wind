@@ -2,8 +2,8 @@ import { createBrowserRouter } from 'react-router-dom';
 import meta from './meta';
 
 // Pages
-import HOME from '../pages/Home';
-import ABOUT from '../pages/About';
+import HOME from '../pages/home/Home';
+import ABOUT from '../pages/about/About';
 
 const routes = createBrowserRouter([
   {

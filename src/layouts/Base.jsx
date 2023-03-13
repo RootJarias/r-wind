@@ -1,8 +1,8 @@
 import { RouterProvider } from 'react-router-dom';
 import routes from '../router/routes';
 
-import CMP_SIDEMENU from '../components/Sidemenu';
-import CMP_NAVBAR from '../components/Navbar';
+import CMP_SIDEMENU from '../components/sidemenu/Sidemenu';
+import CMP_NAVBAR from '../components/navbar/Navbar';
 
 const L_BASE = () => {
   return (
