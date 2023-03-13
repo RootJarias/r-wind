@@ -1,0 +1,8 @@
+/* Core Tailwind Styles */
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Custom Global Tailwind Style/Class */
