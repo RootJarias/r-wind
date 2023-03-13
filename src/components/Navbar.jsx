@@ -1,5 +1,3 @@
-// import { useState } from 'react';
-
 const CMP_NAVBAR = () => {
   return (
     <>

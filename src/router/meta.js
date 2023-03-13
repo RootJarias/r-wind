@@ -24,8 +24,8 @@ function setHelmet(title, metaList) {
         <title>
           {appName} - {title}
         </title>
-        {metaList.map((meta) => {
-          return <meta name={meta.name} content={meta.content} />;
+        {metaList.map((meta, i) => {
+          return <meta name={meta.name} content={meta.content} key={i} />;
         })}
       </Helmet>
     </HelmetProvider>

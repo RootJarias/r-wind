@@ -1,9 +1,23 @@
+import { RouterProvider } from 'react-router-dom';
+import routes from '../router/routes';
+
+import CMP_SIDEMENU from '../components/Sidemenu';
 import CMP_NAVBAR from '../components/Navbar';
 
 const L_BASE = () => {
   return (
     <>
-      <CMP_NAVBAR />
+      <div className="flex">
+        <CMP_SIDEMENU />
+
+        <div className="block w-full">
+          <CMP_NAVBAR />
+
+          <div className="p-4">
+            <RouterProvider router={routes} />
+          </div>
+        </div>
+      </div>
     </>
   );
 };
