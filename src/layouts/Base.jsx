@@ -1,6 +1,8 @@
+// Base Imports
 import { RouterProvider } from 'react-router-dom';
 import routes from '../router/routes';
 
+// Import Components
 import CMP_SIDEMENU from '../components/sidemenu/Sidemenu';
 import CMP_NAVBAR from '../components/navbar/Navbar';
 

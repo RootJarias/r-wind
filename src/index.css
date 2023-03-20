@@ -5,4 +5,8 @@
 
 @tailwind utilities;
 
-/* Custom Global Tailwind Class */
+/* Custom Global Tailwind Class/Style */
+.material-icons {
+  display: inline-flex;
+  vertical-align: top;
+}

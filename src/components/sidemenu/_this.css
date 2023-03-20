@@ -1,14 +1,14 @@
-.wave {
+.sidenav-wave .wave {
+  @apply fill-primary-500;
   width: 100%;
   height: 100px;
-  fill: #61dafb;
-  margin-top: -50px;
   pointer-events: none;
+  border-bottom: 1px solid #cbd5e1;
 }
 
-.wave path:nth-child(1) {
-  opacity: 0.1;
+.sidenav-wave .wave path:nth-child(1) {
+  opacity: 0.3;
 }
-.wave path:nth-child(2) {
-  opacity: 0.15;
+.sidenav-wave .wave path:nth-child(2) {
+  opacity: 0.5;
 }

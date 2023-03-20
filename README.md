@@ -69,7 +69,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-Technologies
+# Technologies
 
-- Tailwind CSS
-- React Helmet Async
+- Tailwind CSS (https://tailwindcss.com/docs/installation)
+- React Helmet Async (https://www.npmjs.com/package/react-helmet-async)
+- Heroicons (https://heroicons.com/)
+
+# Script Import, Data, Function Order
+
+1.) Base Imports
+2.) Import Services
+3.) Import Components
+4.) Import 3rd party components/plugins
+5.) Import Style
+6.) Import Icons
+7.) Import Assets
